@@ -1,0 +1,4 @@
+services:
+  morgenstille.visual.heatmap:
+    class: Morgenstille\Visual\HeatmapBundle\Service\HeatmapService
+    arguments: []

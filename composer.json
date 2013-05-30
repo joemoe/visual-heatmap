@@ -1,0 +1,25 @@
+{
+    "name": "morgenstille/visual-heatmap-bundle",
+    "type": "symfony-bundle",
+    "description": "Generates Heatmaps.",
+    "keywords": ["heatmap", "image", "visual"],
+    "license": "MIT",
+    "minimum-stability": "alpha",
+    "authors": [
+        {
+            "name": "Johannes Moser",
+            "email": "sofa@morgenstille.at",
+            "homepage": "http://morgenstille.at"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.1",
+    },
+    "require-dev":{
+    },
+    "autoload": {
+        "psr-0": { "Morgenstille\\Visual\\HeatmapBundle": "" }
+    },
+    "target-dir": "Morgenstille/Visual/HeatmapBundle"
+}
